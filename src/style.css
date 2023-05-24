@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-area {
+    @apply bg-white rounded-md shadow shadow-gray-200 p-4;
+  }
+}
