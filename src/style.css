@@ -4,6 +4,6 @@
 
 @layer components {
   .card-area {
-    @apply bg-white rounded-md shadow shadow-gray-200 p-4;
+    @apply bg-white rounded-md shadow shadow-gray-200 p-4 border border-gray-200;
   }
 }
