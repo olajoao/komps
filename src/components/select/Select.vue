@@ -27,7 +27,7 @@
 import { CheckIcon } from "@heroicons/vue/24/outline";
 import { ref, computed } from "vue";
 
-interface IOption {
+export interface IOption {
   id: number;
   name: string;
   isSelected: boolean;
